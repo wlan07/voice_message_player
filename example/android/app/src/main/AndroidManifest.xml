@@ -2,6 +2,7 @@
     package="com.example.voice_message">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
+     android:usesCleartextTraffic="true"
         android:label="voice_message"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">

@@ -30,7 +30,7 @@ class Bubble extends StatelessWidget {
 
   Widget _bubble(BuildContext context) => voice
       ? VoiceMessage(
-          audioSrc: 'https://sounds-mp3.com/mp3/0012660.mp3',
+          audioSrc: 'http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3',
           me: index == 5 ? false : true,
         )
       : Container(
